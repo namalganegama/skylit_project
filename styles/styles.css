@@ -1,0 +1,122 @@
+body{
+  background-image: "";
+  background-size:cover;
+  font-family: "Lato", sans-serif;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+ul.menu{
+  list-style-type:none;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  overflow: hidden;
+}
+
+
+
+li a{
+  display:block;
+  color:black;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+}
+
+li a:hover{
+  background-color:pink;
+}
+
+.productdata{
+  background-color:white;
+  padding:5px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 75px;
+  left: 0;
+  background-color: #267373;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+  
+.main {
+  margin-left: 75px; 
+  font-size: 15px; 
+  padding: 0px 10px;
+}
+
+
+
+label {
+ display: inline-block;
+ margin-bottom: 5px;
+}
+
+.form-row {
+  display: flex;
+}
+
+.form-group {
+  padding: 5px;
+  width: 50%;
+}
+
+.form-group input {
+  width: 100%;
+}
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #b3b3b3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+
+
+
+
+

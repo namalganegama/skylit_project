@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title> Register Page</title> 
+<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+<link rel="stylesheet" type="text/css" href="styles/formStyles.css"/>
+<script src="https://kit.fontawesome.com/aba2ee89a0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+ 
+
+
+<div class="navbar">
+<a> <img src="images/logo.jpg" width="200" height="40"> </a>
+<a> <i class="fa-solid fa-bars"></i> </a>
+<a> <a href=""> User Profile </a> </a>       
+ </div>      
+
+<hr >
+
+
+   <a href=""> Home/Employee Registration </a>
+
+<br> 
+
+<div class="sidenav">
+
+<a class="fa-regular fa-user" href="#about"> User Profile </a><br>
+ <a> <b> TIME SHEETS </b> </a><br>
+  <a href=""> Previous Timesheet </a>
+  <a href=""> Current Timesheet </a>
+  <a href=""> Summary </a><br>
+ <a> <b> TIME SHEETS </b> </a><br>
+  <a class="fa-regular fa-star" href=""> Employee Registration </a>
+  <a class="fa-regular fa-star" href=""> Employee Information </a>
+</div>
+<div class="main">
+
+ <div class="box"> 
+ 
+ <form action="#">
+
+<div class="user-details">
+
+<h1> Employee Registration </h1>
+
+     <b>Employee Name</b>
+     <hr>
+
+<div class="form-row">
+   <div class="form-group">
+     Surname<br> 
+     <input type="text"  style="width:500px;" required placeholder="Enter your surname" ><br>
+   </div>
+   <div class="form-group">
+     First Name <br>
+     <input type="text"  style="width:500px;" required placeholder="Enter your First Name"><br>
+</div>
+  </div>
+<div class="form-row">
+   <div class="form-group">
+      Middle Name <br>
+     <input type="text"  style="width:500px;" required placeholder="Enter your Middle Name"><br>
+ </div>
+   <div class="form-group">
+      Last Name <br>
+     <input type="text"  style="width:500px;" required placeholder="Enter your Last Name"><br><br>
+</div>
+  </div>
+<div class="form-row">
+   <div class="form-group">
+      <b>Employee Details</b>
+      <hr>
+<div class="form-row">
+   <div class="form-group">
+     Employee ID<br> 
+     <input type="text"  style="width:300px;" required placeholder="Enter your employee id" ><br>
+</div>
+   <div class="form-group">     
+     Designation <br>
+     <input type="text"  style="width:300px;" required placeholder="Enter your designamtion"><br>
+</div>
+  </div>
+
+<div class="form-row">
+   <div class="form-group">
+     Reporting Manager <br>
+     <input type="text"  style="width:300px;" required placeholder="Enter your reporting manager"><br>
+</div>
+   <div class="form-group">     
+     Company Email <br>
+     <input type="email" style="width:300px;" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9]+\.[a-z]{2,3}" 
+     required placeholder="Enter your company e-mail"> <br>
+</div>
+  </div>
+<div class="form-row">
+   <div class="form-group"> 
+     Date of Appointment <br>
+     <input type="date" name="" style="width:300px;" value=""><br><br>
+</div>
+   <div class="form-group"> 
+</div>
+  </div>
+
+<div class="form-row">
+   <div class="form-group">  
+     <b>Contact Information</b>
+      <hr>
+</div>
+  </div>
+
+<div class="form-row">
+   <div class="form-group">  
+     Phone Number<br> 
+      <input type="text" " style="width:300px;" pattern="[0-9]{10}" required placeholder="Enter your phone number" ><br>
+</div>
+    <div class="form-group"> 
+  
+     Address <br>
+     <input type="text"  style="width:300px;" required placeholder="Enter your address"><br><br>
+ </div>
+  </div>
+
+  
+
+     <b>Bank Information</b>
+      <hr>
+<div class="form-row">
+    <div class="form-group">
+     Account Number<br> 
+     <input type="text"  style="width:300px;" required placeholder="Enter your employee id" ><br>
+ </div>
+    <div class="form-group">     
+     Bank <br>
+     <input type="text"  style="width:300px;" required placeholder="Enter your bank name"><br>
+ </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group">
+     Branch <br>
+     <input type="text"  style="width:500px;" required placeholder="Enter your branch"><br><br>
+ </div>
+    <div class="form-group">
+ </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group">
+
+     <b>Basic Information</b>
+     <hr>
+</div>
+  </div>
+  <div class="form-row">
+    <div class="form-group">
+     Birthbay<br> 
+     <input type="date" name="" style="width:300px;" value=""><br>
+  </div>
+    <div class="form-group">
+  
+     Gender <br>
+     <input type="text"  style="width:300px;" required placeholder="Enter your gender"><br>
+ </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group">
+     Age <br>
+     <input type="text"  style="width:500px;" required placeholder="Enter your age"><br><br>
+</div>
+    <div class="form-group">
+ </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group">
+
+
+     <b>Login Information</b>
+     <hr>
+ </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group">
+
+     Password<br>
+     <input type="password" style="width:300px;" Pattern="[A-Za-z0-9]{5,10}"><br>
+ </div>
+    <div class="form-group">
+
+
+     Confirm Password <br>
+     <input type="password" style="width:300px;" Pattern="[A-Za-z0-9]{5,10}"><br><br>
+ </div>
+  </div>
+  
+
+     <b>Additional Information</b>
+     <hr>
+     Note:<br>
+     <textarea rows="10" cols="50" style="width:1000px;" > 
+     </textarea><br><br>
+   
+    <button class="button"> Register </button>
+    <button class="button1"> Cancel </button>
+    
+</div>
+ </form>
+ </div>
+</div>
+
+<br><br>
+
+
+</body>
+</html
